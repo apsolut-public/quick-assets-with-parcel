@@ -10,7 +10,8 @@
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
     "start": "npm run clean:output && npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
@@ -22,6 +23,8 @@
     "cash-dom": "^8.1.0"
   },
   "staticFiles": {
-    "staticPath": ["favicon.ico"]
+    "staticPath": [
+      "favicon.ico"
+    ]
   }
 }

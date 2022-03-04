@@ -6,8 +6,7 @@ Start building for WordPress in seconds with ParcelJS
 - using: `cash-dom` a quick (small KB) replacement for jQuery
 
 
-    
-
+    ```
     // install
     npm install
 
